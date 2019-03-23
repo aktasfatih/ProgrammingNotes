@@ -9,23 +9,23 @@
 ## Docker
 - [Building Efficient Dockerfiles](http://bitjudo.com/blog/2014/03/13/building-efficient-dockerfiles-node-dot-js/) - Website explaining why to not rebuild node apps.
 - [Deploy Docker Containers](https://aws.amazon.com/getting-started/tutorials/deploy-docker-containers/) - ECS to run containers
+- [Dockerizing a NodeJS Application](https://nodejs.org/en/docs/guides/nodejs-docker-webapp/) - Setting up a simple nodejs app in a container
 
-s
 **NOTES**:
 ```
 docker build -t <your username>/node-web-app . #  The -t flag lets you tag your image so it's easier to find later using the docker images command
 docker images # Seeing images
 ```
 
-Using ```package.json```,
+###### CODE SNIPPETS
+Using ```package.json``` in Docker,
 ```
 ADD package.json /tmp/package.json
 RUN cd /tmp && npm install
 RUN mkdir -p /opt/app && cp -a /tmp/node_modules /opt/app/
 ```
 
-###### NODEJS AND DOCKER
-- [Dockerizing a NodeJS Application](https://nodejs.org/en/docs/guides/nodejs-docker-webapp/) - Setting up a simple nodejs app in a container
+Example for ```dockerfile```,
 ```
 FROM image:version # Image to build from
 WORKDIR # Creating an app directory
@@ -33,9 +33,6 @@ COPY package*.json ./ # Copying package and lock file if exists.
 RUN npm install # Installing dependencies
 RUN npm ci --only=production # For production
 ```
-
-
-
 
 ## NodeJS
 - [Intro for NodeJS with Docker](https://nodejs.org/en/docs/guides/nodejs-docker-webapp/) - Making a simple Express app for Docker containers
