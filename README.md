@@ -9,11 +9,10 @@
 ## Docker
 - [Building Efficient Dockerfiles](http://bitjudo.com/blog/2014/03/13/building-efficient-dockerfiles-node-dot-js/) - Website explaining why to not rebuild node apps.
 
-###### DOCKER COMMANDS
+**NOTES**:
 ```
 $ docker build -t <your username>/node-web-app . #  The -t flag lets you tag your image so it's easier to find later using the docker images command:
 ```
-
 
 Using ```package.json```,
 ```
