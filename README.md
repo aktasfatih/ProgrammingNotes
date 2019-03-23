@@ -8,10 +8,13 @@
 
 ## Docker
 - [Building Efficient Dockerfiles](http://bitjudo.com/blog/2014/03/13/building-efficient-dockerfiles-node-dot-js/) - Website explaining why to not rebuild node apps.
+- [Deploy Docker Containers](https://aws.amazon.com/getting-started/tutorials/deploy-docker-containers/) - ECS to run containers
 
+s
 **NOTES**:
 ```
-$ docker build -t <your username>/node-web-app . #  The -t flag lets you tag your image so it's easier to find later using the docker images command:
+docker build -t <your username>/node-web-app . #  The -t flag lets you tag your image so it's easier to find later using the docker images command
+docker images # Seeing images
 ```
 
 Using ```package.json```,
@@ -30,6 +33,8 @@ COPY package*.json ./ # Copying package and lock file if exists.
 RUN npm install # Installing dependencies
 RUN npm ci --only=production # For production
 ```
+
+
 
 
 ## NodeJS
