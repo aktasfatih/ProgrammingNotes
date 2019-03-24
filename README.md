@@ -45,6 +45,9 @@ RUN npm ci --only=production # For production
 - [Redux, Tutorials point](https://www.tutorialspoint.com/redux/redux_installation.htm)
 - [Immutable](https://immutable-js.github.io/immutable-js/) - Helps with immutable objects in RN
 - [Best Redux Example](https://redux.js.org/basics/reducers) - Use the **reducer composition** format
+- [Auth with Mongoose and Facebook](https://alexanderpaterson.com/posts/add-social-authentication-to-a-react-native-application)
+
+**Reducer Composition**: Each reducer is responsible of its own part in the state. For example, local state equals the state of the App.js.
 
 ## Linux Notes
 ```
