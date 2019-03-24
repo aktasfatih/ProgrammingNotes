@@ -43,7 +43,7 @@ RUN npm ci --only=production # For production
 
 ## ReactNative
 - [Redux, Tutorials point](https://www.tutorialspoint.com/redux/redux_installation.htm)
-- [Ummutable](https://immutable-js.github.io/immutable-js/) - Helps with immutable objects in RN
+- [Immutable](https://immutable-js.github.io/immutable-js/) - Helps with immutable objects in RN
 - [Best Redux Example](https://redux.js.org/basics/reducers) - Use the **reducer composition** format
 
 ## Linux Notes
