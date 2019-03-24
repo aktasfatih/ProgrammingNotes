@@ -41,6 +41,11 @@ RUN npm ci --only=production # For production
 - [Social OAuth](https://alexanderpaterson.com/posts/add-social-authentication-to-a-react-native-application) - NodeJS Express OAuth integration, requires xcode
 - [Login with FacebookSDK](https://developers.facebook.com/docs/react-native/login/) - Others require more work, time consuming.
 
+## ReactNative
+- [Redux, Tutorials point](https://www.tutorialspoint.com/redux/redux_installation.htm)
+- [Ummutable](https://immutable-js.github.io/immutable-js/) - Helps with immutable objects in RN
+- [Best Redux Example](https://redux.js.org/basics/reducers) - Use the **reducer composition** format
+
 ## Linux Notes
 ```
 touch [FILE] # Creates an empty file named FILE
