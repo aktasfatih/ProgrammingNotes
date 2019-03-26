@@ -55,3 +55,6 @@ touch [FILE] # Creates an empty file named FILE
 
 ```
 
+## Computer Science
+- [Data Structures](https://medium.com/swlh/introduction-to-data-structures-9134b7d064a6) - A summary of data structures
+
