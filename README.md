@@ -2,6 +2,7 @@
 - [Markdown Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet) - It is the best fource for learning Markdown syntax that Github uses.
 - [Github Formatting](https://help.github.com/en/articles/basic-writing-and-formatting-syntax#quoting-code) - Official Docs for Github's formatting.
 - [Continous Deployment](https://hackernoon.com/continuous-deployment-with-aws-codedeploy-github-d1eb97550b82)
+- [More CI/CD](https://medium.com/@mosheezderman/how-to-set-up-ci-cd-pipeline-for-a-node-js-app-with-jenkins-c51581cc783c)
 **NOTES**:
 - I use a plugin on VSCode to preview my Markdown files.
 
@@ -55,6 +56,7 @@ touch [FILE] # Creates an empty file named FILE
 
 ```
 
-## Computer Science
+## Computer Science AWS
 - [Data Structures](https://medium.com/swlh/introduction-to-data-structures-9134b7d064a6) - A summary of data structures
+- [Setting up VPC](https://docs.aws.amazon.com/vpc/latest/userguide/what-is-amazon-vpc.html)
 
