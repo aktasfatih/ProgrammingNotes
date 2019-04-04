@@ -60,4 +60,4 @@ touch [FILE] # Creates an empty file named FILE
 ## Computer Science AWS
 - [Data Structures](https://medium.com/swlh/introduction-to-data-structures-9134b7d064a6) - A summary of data structures
 - [Setting up VPC](https://docs.aws.amazon.com/vpc/latest/userguide/what-is-amazon-vpc.html)
-
+- [10 Things to know about DynamoDB](https://cloudacademy.com/blog/amazon-dynamodb-ten-things/)
