@@ -41,6 +41,7 @@ RUN npm ci --only=production # For production
 - [Facebook login](https://codeburst.io/node-js-rest-api-facebook-login-121114ee04d8?gi=d9ee6ee0b1d)
 - [Social OAuth](https://alexanderpaterson.com/posts/add-social-authentication-to-a-react-native-application) - NodeJS Express OAuth integration, requires xcode
 - [Login with FacebookSDK](https://developers.facebook.com/docs/react-native/login/) - Others require more work, time consuming.
+- [Main login workflow Express and RN](https://appdividend.com/2018/02/07/node-js-jwt-authentication-tutorial-scratch/)
 
 ## ReactNative
 - [Redux, Tutorials point](https://www.tutorialspoint.com/redux/redux_installation.htm)
