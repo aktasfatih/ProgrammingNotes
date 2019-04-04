@@ -42,6 +42,7 @@ RUN npm ci --only=production # For production
 - [Social OAuth](https://alexanderpaterson.com/posts/add-social-authentication-to-a-react-native-application) - NodeJS Express OAuth integration, requires xcode
 - [Login with FacebookSDK](https://developers.facebook.com/docs/react-native/login/) - Others require more work, time consuming.
 - [Main login workflow Express and RN](https://appdividend.com/2018/02/07/node-js-jwt-authentication-tutorial-scratch/)
+- 
 
 ## ReactNative
 - [Redux, Tutorials point](https://www.tutorialspoint.com/redux/redux_installation.htm)
@@ -61,3 +62,5 @@ touch [FILE] # Creates an empty file named FILE
 - [Data Structures](https://medium.com/swlh/introduction-to-data-structures-9134b7d064a6) - A summary of data structures
 - [Setting up VPC](https://docs.aws.amazon.com/vpc/latest/userguide/what-is-amazon-vpc.html)
 - [10 Things to know about DynamoDB](https://cloudacademy.com/blog/amazon-dynamodb-ten-things/)
+- [Sync of diff. Databases between EU and US](https://aws.amazon.com/blogs/database/how-to-create-a-fast-and-globally-available-user-profiling-system-by-using-amazon-dynamodb-global-tables/)
+- [DynamoDB Guide](https://www.dynamodbguide.com/key-concepts/)
