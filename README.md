@@ -64,3 +64,10 @@ touch [FILE] # Creates an empty file named FILE
 - [10 Things to know about DynamoDB](https://cloudacademy.com/blog/amazon-dynamodb-ten-things/)
 - [Sync of diff. Databases between EU and US](https://aws.amazon.com/blogs/database/how-to-create-a-fast-and-globally-available-user-profiling-system-by-using-amazon-dynamodb-global-tables/)
 - [DynamoDB Guide](https://www.dynamodbguide.com/key-concepts/)
+
+## Docker 
+- [Mysql](https://dev.mysql.com/doc/mysql-installation-excerpt/5.5/en/docker-mysql-getting-started.html) - Basics
+- [Mysql More](https://severalnines.com/blog/mysql-docker-containers-understanding-basics) - Has different ways
+- [NodeJs](https://www.digitalocean.com/community/tutorials/how-to-build-a-node-js-application-with-docker) - Dockerizing 
+- [Storing Mysql data in Host](http://www.inanzzz.com/index.php/post/l1ux/dockerfile-example-for-storing-mysql-data-outside-of-container)
+- [PHP and Mysql](http://blog.adnansiddiqi.me/create-your-first-php-mysql-application-in-docker/)
